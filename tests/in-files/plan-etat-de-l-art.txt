@@ -1,0 +1,43 @@
+Structure de l'État de l'art
+1. Introduction
+Définir ce qu'est un système de stockage objet.
+Expliquer son rôle dans les architectures modernes (cloud, big data, etc.).
+Justifier son importance dans le stockage et la gestion de grandes quantités de données.
+
+2. Concepts fondamentaux
+Différence entre stockage objet, fichier, et bloc :
+Stockage objet : Stockage orienté données non structurées avec ID unique et métadonnées.
+Stockage fichier : Organisation hiérarchique (dossiers/fichiers).
+Stockage bloc : Gestion bas-niveau utilisée dans les bases de données ou disques.
+Fonctionnalités clés :
+PUT, GET, DELETE (création, récupération, suppression).
+Gestion des métadonnées (clé-valeur).
+Versioning des objets.
+Déduplication pour optimiser l’espace.
+
+3. Technologies et outils existants
+Présenter des solutions de stockage objet populaires :
+Amazon S3 : Premier et standard du stockage objet.
+MinIO : Solution open source performante.
+Ceph : Système distribué robuste avec gestion des objets.
+Comparer leurs fonctionnalités principales, avantages, et limitations.
+
+4. État des connaissances actuelles
+Rechercher des articles scientifiques, livres, et blogs techniques qui décrivent :
+Les algorithmes utilisés dans le versioning.
+Les techniques de déduplication.
+Les mécanismes de gestion de métadonnées.
+Les protocoles client-serveur appliqués au stockage objet.
+
+5. Défis et opportunités
+Défis courants :
+Gestion des versions multiples d'un objet (limites de stockage, performances).
+Déduplication efficace à grande échelle.
+Sécurité et confidentialité des objets (chiffrement, autorisations).
+Opportunités :
+Optimisation des performances via parallélisme.
+Scalabilité dans un environnement distribué.
+
+6. Synthèse et orientation
+Résumer les technologies existantes et leurs lacunes.
+Présenter comment ton projet se positionnera pour aborder certains défis ou limitations (exemple : proposer une architecture client-serveur minimaliste, explorer la déduplication, etc.).
